@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+解场分析器
+</name>
+</assembly>
+<members>
+<member name="P:解场分析器.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:解场分析器.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:解场分析器.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:解场分析器.Dempcomp.AnaArg">
+	<summary>
+ 分析侧重方向。0:侧重分数 1:侧重生物数目差 2:侧重解场
+ </summary>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Situation.SituationAna_TauntWithShield(解场分析器.Dempcomp.GameWorld@,System.Int16@)">
+	<summary>
+ 场面：只要存在圣盾嘲讽。
+ </summary>
+	<param name="gw">相应的世界观。</param>
+	<param name="ac">攻击次数。</param>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Situation.SituationAna_Taunt(解场分析器.Dempcomp.GameWorld@,System.Int16@)">
+	<summary>
+ 场面：非圣盾嘲讽、其他。
+ </summary>
+	<param name="gw"></param>
+	<param name="ac"></param>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Situation.SA_PreNextStep(解场分析器.Dempcomp.GameWorld@)">
+	<summary>
+ 进行下一步的必须步骤。请在之后重置DeduceInd。
+ </summary>
+	<param name="gw"></param>
+	<returns>剩余攻击次数。</returns>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Situation.SA_StepLast(解场分析器.Dempcomp.GameWorld@,System.Int16)">
+	<summary>
+	</summary>
+	<param name="gw"></param>
+	<param name="ac">剩余攻击次数。</param>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Situation.Deduce">
+	<summary>
+ 演绎。嘲讽已被消除。
+ </summary>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Situation.SituationAna_Shield(解场分析器.Dempcomp.GameWorld@,System.Int16@)">
+	<summary>
+ 场面：圣盾、无嘲讽。
+ </summary>
+	<param name="gw"></param>
+	<param name="ac"></param>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Situation.SA_Complex_StepLast(解场分析器.Dempcomp.GameWorld@,System.Int16,System.Collections.Generic.List{解场分析器.Dempcomp.GameWorld.Unit}@)">
+	<summary>
+ 存在顺序影响时的最后一步。
+ </summary>
+	<param name="gw"></param>
+	<param name="templ">因为预先考虑而被移除的对方单位序列，将在这里移回。</param>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Situation.SituationAna_Simple_Beginning(解场分析器.Dempcomp.GameWorld@,System.Int16@)">
+	<summary>
+ 开始局面。局面：无嘲讽、无圣盾。
+ </summary>
+	<param name="gw"></param>
+	<param name="ac"></param>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Situation.Deduce_Simple(System.String@)">
+	<summary>
+ 演绎。场上不存在嘲讽。不考虑圣盾。
+ </summary>
+	<param name="o">用于储存操作过程。</param>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Attack(解场分析器.Dempcomp.GameWorld.Unit@,解场分析器.Dempcomp.GameWorld.Unit@)">
+	<summary>
+ u1攻击u2。没有预先判定目标可行性（是否死亡，是否可以作为攻击目标）。
+ </summary>
+	<param name="u1"></param>
+	<param name="u2"></param>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Battle(解场分析器.Dempcomp.GameWorld.Unit@,解场分析器.Dempcomp.GameWorld.Unit@)">
+	<summary>
+ u1攻击u2。没有预先判定目标可行性（是否死亡，是否可以作为攻击目标）。
+ </summary>
+	<param name="u1"></param>
+	<param name="u2"></param>
+	<remarks></remarks>
+</member><member name="M:解场分析器.Dempcomp.GameWorld.Duel(解场分析器.Dempcomp.GameWorld.Unit,解场分析器.Dempcomp.GameWorld.Unit)">
+	<summary>
+ 轮回攻击，判断u1是否能够击破u2。
+ </summary>
+	<param name="u1"></param>
+	<param name="u2"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

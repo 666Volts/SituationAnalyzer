@@ -1,0 +1,12 @@
+D:\工程\解场分析器\解场分析器\bin\Debug\解场分析器.exe
+D:\工程\解场分析器\解场分析器\bin\Debug\解场分析器.pdb
+D:\工程\解场分析器\解场分析器\bin\Debug\解场分析器.xml
+D:\工程\解场分析器\解场分析器\obj\Debug\解场分析器.FormMain.resources
+D:\工程\解场分析器\解场分析器\obj\Debug\解场分析器.Resources.resources
+D:\工程\解场分析器\解场分析器\obj\Debug\解场分析器.vbproj.GenerateResource.Cache
+D:\工程\解场分析器\解场分析器\obj\Debug\解场分析器.exe
+D:\工程\解场分析器\解场分析器\obj\Debug\解场分析器.xml
+D:\工程\解场分析器\解场分析器\obj\Debug\解场分析器.pdb
+D:\工程\解场分析器\解场分析器\obj\Debug\解场分析器.FormUSet.resources
+D:\工程\解场分析器\解场分析器\obj\Debug\解场分析器.FormWorldSet.resources
+D:\工程\解场分析器\解场分析器\obj\Debug\解场分析器.FormEXEffect.resources
